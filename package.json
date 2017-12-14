@@ -1,0 +1,21 @@
+{
+  "name": "fis3-optimizer-sqip",
+  "version": "1.0.0",
+  "description": "sqip for fis3",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp default",
+    "test": "gulp lint default && node ./test/helpers/download-browsers.js && mocha",
+    "publish-docs": "npm-publish-scripts publish-docs",
+    "publish-release": "npm-publish-scripts publish-release"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/hijimo/fis3-optimizer-sqip/",
+  "dependencies": {
+    "deasync": "*",
+    "sqip": "*"
+  },
+  "files": [
+    "index.js"
+  ]
+}
